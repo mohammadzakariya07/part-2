@@ -3,7 +3,7 @@ function login() {
     let pass = document.getElementById("password").value;
 
     // Demo credentials (for hackathon prototype)
-    if (user === "operator01" && pass === "aadhaar123") {
+    if (user === "zakariya" && pass === "1234") {
         window.location.href = "dashboard.html";
     } else {
         document.getElementById("error").innerText =
